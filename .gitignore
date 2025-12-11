@@ -3,6 +3,8 @@
 Thumbs.db
 Desktop.ini
 
+*.bat
+
 # IDE and Editor
 .idea/
 .vscode/
