@@ -1,0 +1,16 @@
+# OS Generated
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temp files
+*.log
+tmp/
+temp/
