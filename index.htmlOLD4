@@ -31,7 +31,7 @@
       flex-direction: column;
       align-items: center;
       gap: 20px;
-      margin-bottom: 8px;
+      margin-bottom: 30px;
     }
 
     .mascot {
@@ -67,19 +67,10 @@
       text-align: center;
     }
 
-    .cta {
-      font-size: 24px;
-      letter-spacing: 2px;
-      color: #000;
-      margin-top: 10px;
-      text-align: center;
-      font-weight: 700;
-    }
-
     .streaming-links {
       display: flex;
       gap: 20px;
-      margin-top: 8px;
+      margin-top: 30px;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -133,7 +124,6 @@
     <h1 class="band-name">The Reef Ratz</h1>
     <img src="wavegoodbye-thereefratz.png" alt="Wave Goodbye - Album" class="album-art">
     <p class="tagline">STEREOPHONIC • HIGH FIDELITY</p>
-    <p class="cta">LISTEN NOW!</p>
   </div>
 
   <div class="streaming-links">

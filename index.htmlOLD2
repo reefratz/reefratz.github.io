@@ -26,23 +26,25 @@
       padding: 40px 20px;
     }
 
-    .content-stack {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      margin-bottom: 8px;
+    .image-stack {
+      position: relative;
+      width: 350px;
+      height: 350px;
+      margin-bottom: 30px;
     }
 
     .mascot {
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
       object-fit: cover;
     }
 
     .album-art {
-      width: 200px;
-      height: 200px;
+      position: absolute;
+      bottom: -40px;
+      right: -40px;
+      width: 180px;
+      height: 180px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.3);
     }
 
@@ -55,7 +57,7 @@
       line-height: 1;
       letter-spacing: 2px;
       text-transform: uppercase;
-      margin: 0;
+      margin-top: 20px;
     }
 
     .tagline {
@@ -63,23 +65,14 @@
       letter-spacing: 4px;
       color: #000;
       opacity: 0.7;
-      margin: 0;
+      margin-top: 15px;
       text-align: center;
-    }
-
-    .cta {
-      font-size: 24px;
-      letter-spacing: 2px;
-      color: #000;
-      margin-top: 10px;
-      text-align: center;
-      font-weight: 700;
     }
 
     .streaming-links {
       display: flex;
       gap: 20px;
-      margin-top: 8px;
+      margin-top: 30px;
       flex-wrap: wrap;
       justify-content: center;
     }
@@ -107,14 +100,21 @@
     }
 
     @media (max-width: 480px) {
+      .image-stack {
+        width: 280px;
+        height: 280px;
+      }
+
       .mascot {
-        width: 240px;
-        height: 240px;
+        width: 280px;
+        height: 280px;
       }
 
       .album-art {
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
+        bottom: -30px;
+        right: -20px;
       }
 
       .band-name {
@@ -128,13 +128,13 @@
   </style>
 </head>
 <body>
-  <div class="content-stack">
+  <div class="image-stack">
     <img src="the-reef-ratz.jpg" alt="The Reef Ratz" class="mascot">
-    <h1 class="band-name">The Reef Ratz</h1>
     <img src="wavegoodbye-thereefratz.png" alt="Wave Goodbye - Album" class="album-art">
-    <p class="tagline">STEREOPHONIC • HIGH FIDELITY</p>
-    <p class="cta">LISTEN NOW!</p>
   </div>
+
+  <h1 class="band-name">The Reef Ratz</h1>
+  <p class="tagline">STEREOPHONIC • HIGH FIDELITY</p>
 
   <div class="streaming-links">
     <!-- Spotify -->
